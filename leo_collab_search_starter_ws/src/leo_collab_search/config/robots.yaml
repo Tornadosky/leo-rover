@@ -1,0 +1,6 @@
+robots: [leo1, leo2]
+frames:
+  map: map
+  base_suffix: base_link
+  odom_suffix: odom
+  laser_suffix: laser_frame

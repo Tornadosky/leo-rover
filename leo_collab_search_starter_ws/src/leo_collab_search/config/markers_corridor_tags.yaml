@@ -1,0 +1,6 @@
+markers:
+  - {id: 1, class_name: april_tag, label: room_a_tag, x: -4.1, y: 1.2, yaw: 0.0, room_id: room_a}
+  - {id: 2, class_name: april_tag, label: room_b_tag, x: 0.0, y: 1.2, yaw: 0.0, room_id: room_b}
+  - {id: 3, class_name: april_tag, label: room_c_tag, x: 4.1, y: 1.2, yaw: 0.0, room_id: room_c}
+  - {id: 10, class_name: target_tag, label: target_marker_10, x: 4.4, y: 2.6, yaw: 0.0, room_id: room_c}
+  - {id: 11, class_name: target_tag, label: spare_marker_11, x: -4.6, y: 2.8, yaw: 0.0, room_id: room_a}

@@ -1,0 +1,15 @@
+maps:
+  corridor_rooms:
+    yaml: maps/corridor_rooms.yaml
+    world: worlds/corridor_rooms.sdf
+    default_rooms: config/rooms_corridor.yaml
+    default_markers: config/markers_corridor_tags.yaml
+  open_area:
+    yaml: maps/open_area.yaml
+    world: worlds/open_area.sdf
+  office_loop:
+    yaml: maps/office_loop.yaml
+    world: worlds/office_loop.sdf
+  warehouse_like:
+    yaml: maps/warehouse_like.yaml
+    world: worlds/warehouse_like.sdf

@@ -1,0 +1,29 @@
+# ROS 2 / colcon build outputs
+build/
+install/
+log/
+
+# Generated run artifacts (recreated by demo scripts)
+leo_collab_search_starter_ws/artifacts/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+*.egg
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Env / secrets
+.env
+.env.*
+*.pem
+credentials.json

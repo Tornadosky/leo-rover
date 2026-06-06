@@ -1,0 +1,24 @@
+start_poses:
+  leo1: {x: -4.8, y: -2.6, yaw: 0.0}
+  leo2: {x:  4.8, y: -2.6, yaw: 3.14159}
+rooms:
+  corridor:
+    search_waypoints:
+      - {x: -4.5, y: -2.2, yaw: 0.0}
+      - {x:  0.0, y: -2.2, yaw: 0.0}
+      - {x:  4.5, y: -2.2, yaw: 3.14159}
+  room_a:
+    search_waypoints:
+      - {x: -4.2, y: 1.0, yaw: 1.5708}
+      - {x: -4.4, y: 2.8, yaw: 0.0}
+  room_b:
+    search_waypoints:
+      - {x: 0.0, y: 1.0, yaw: 1.5708}
+      - {x: 0.0, y: 2.7, yaw: 0.0}
+  room_c:
+    search_waypoints:
+      - {x: 4.2, y: 1.0, yaw: 1.5708}
+      - {x: 4.4, y: 2.8, yaw: 3.14159}
+assignments:
+  leo1: [corridor, room_a, room_b]
+  leo2: [room_c]
