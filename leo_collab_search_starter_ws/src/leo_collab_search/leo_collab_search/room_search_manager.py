@@ -51,7 +51,6 @@ class RoomSearchManager(Node):
         self.declare_parameter("use_nav2", False)
         self.declare_parameter("start_delay_sec", 1.0)
         self.declare_parameter("publish_rate", 1.0)
-        self.declare_parameter("use_sim_time", True)
 
         self.robots = parse_robot_names(self.get_parameter("robots").value)
         rooms_file = str(self.get_parameter("rooms_file").value)

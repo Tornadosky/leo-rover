@@ -32,7 +32,6 @@ class ObjectDetectionAdapter(Node):
         self.declare_parameter("robot", "leo1")
         self.declare_parameter("raw_topic", "")
         self.declare_parameter("default_room_id", "unknown")
-        self.declare_parameter("use_sim_time", True)
 
         self.robot = str(self.get_parameter("robot").value).strip(" /")
         raw_topic = str(self.get_parameter("raw_topic").value).strip()

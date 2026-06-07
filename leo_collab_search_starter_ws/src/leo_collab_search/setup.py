@@ -37,6 +37,7 @@ setup(
             "smoke_drive = leo_collab_search.smoke_drive:main",
             "topic_snapshot = leo_collab_search.topic_snapshot:main",
             "object_detection_adapter = leo_collab_search.object_detection_adapter:main",
+            "tf_topic_relay = leo_collab_search.tf_topic_relay:main",
         ],
     },
 )

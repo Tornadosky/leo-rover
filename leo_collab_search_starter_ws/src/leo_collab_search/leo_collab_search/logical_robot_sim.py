@@ -49,7 +49,6 @@ class LogicalRobotSim(Node):
         self.declare_parameter("goal_tolerance", 0.12)
         self.declare_parameter("yaw_tolerance", 0.25)
         self.declare_parameter("timer_period", 0.05)
-        self.declare_parameter("use_sim_time", True)
 
         self.artifact_dir = ensure_artifact_dir(self.get_parameter("artifact_dir").value)
         self.linear_speed = float(self.get_parameter("linear_speed").value)

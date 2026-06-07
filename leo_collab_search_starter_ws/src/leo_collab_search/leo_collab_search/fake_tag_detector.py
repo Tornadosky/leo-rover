@@ -29,7 +29,6 @@ class FakeTagDetector(Node):
         self.declare_parameter("fov_deg", 120.0)
         self.declare_parameter("require_fov", True)
         self.declare_parameter("publish_rate", 2.0)
-        self.declare_parameter("use_sim_time", True)
 
         self.robot = str(self.get_parameter("robot").value).strip(" /")
         markers_file = str(self.get_parameter("markers_file").value)

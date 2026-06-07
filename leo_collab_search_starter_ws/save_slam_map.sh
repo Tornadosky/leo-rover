@@ -2,8 +2,10 @@
 set -euo pipefail
 # Run while one_robot SLAM is active. Saves map into ./artifacts/slam_map.*
 cd "$(dirname "$0")"
+set +u
 source /opt/ros/jazzy/setup.bash
 source install/setup.bash
+set -u
 mkdir -p artifacts
 ros2 run nav2_map_server map_saver_cli -f artifacts/slam_map
 if [ -f artifacts/slam_map.pgm ]; then

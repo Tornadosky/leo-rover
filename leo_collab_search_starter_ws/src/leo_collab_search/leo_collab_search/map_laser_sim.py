@@ -67,7 +67,6 @@ class MapLaserSim(Node):
         self.declare_parameter("ray_step", 0.04)
         self.declare_parameter("publish_rate", 8.0)
         self.declare_parameter("occupied_pixel_threshold", 100)  # dark pixels are occupied
-        self.declare_parameter("use_sim_time", True)
 
         self.robots = parse_robot_names(self.get_parameter("robots").value)
         map_yaml = str(self.get_parameter("map_yaml").value)

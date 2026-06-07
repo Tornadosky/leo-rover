@@ -29,7 +29,6 @@ class SemanticMapServer(Node):
         self.declare_parameter("target_class", "")
         self.declare_parameter("merge_distance", 0.65)
         self.declare_parameter("publish_rate", 1.0)
-        self.declare_parameter("use_sim_time", True)
 
         self.artifact_dir = ensure_artifact_dir(str(self.get_parameter("artifact_dir").value))
         self.target_marker_id = int(self.get_parameter("target_marker_id").value)

@@ -47,7 +47,9 @@ if ! grep -q "export ROS_DOMAIN_ID=11" ~/.bashrc; then
   echo "export ROS_DOMAIN_ID=11" >> ~/.bashrc
 fi
 
+set +u
 source /opt/ros/jazzy/setup.bash
+set -u
 sudo rosdep init 2>/dev/null || true
 rosdep update
 
